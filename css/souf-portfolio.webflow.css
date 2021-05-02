@@ -1424,6 +1424,7 @@
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
+  transform:translate(0px,15px);
 }
 
 .text-block-30 {
