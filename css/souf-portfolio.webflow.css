@@ -30,6 +30,24 @@
   justify-content: space-between;
 }
 
+/* newZER */
+.contain-new-port {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 33.3%;
+  height: 50%;
+}
+
+.img-size-new {
+  height: 75px;
+}
+
+.img-size-new--scd {
+  height: 130px;
+}
+
 .div-block {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3202,6 +3220,21 @@
 }
 
 @media screen and (max-width: 767px) {
+  
+  /* newZER */
+  .contain-new-port {
+    height: 0%;
+  }
+
+  .img-size-new {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .img-size-new--scd {
+    margin-top: 5px;
+    margin-bottom: 50px;
+  }
 
   .vertUZI {
     top: 100px;
